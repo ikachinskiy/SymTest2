@@ -8,11 +8,13 @@
 declare(strict_types=1);
 
 
-namespace Tests\SNG\MenuBundle\Menu;
+namespace App\Tests\SNG\MenuBundle\Menu;
 
 use PHPUnit\Framework\TestCase;
 
-class MenuTests extends TestCase
+class MenuTest extends TestCase
 {
-
+    public function testItWorks() {
+        $this->assertTrue(true);
+    }
 }
